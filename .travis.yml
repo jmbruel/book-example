@@ -1,5 +1,10 @@
 sudo: required
 
+env:
+  global:
+  - GH_REF: github.com/jmbruel/book-example.git
+  - secure: "WukRk/cezkAxAWtwBmfWWeS6ONO8IJLm/TmcPjABDpj6vqBeYWDl91QnrMW2bYKDxSKQYl8N1USQWpkpzu/zHBsh8iHoKr0NaVMK13u4rlzVpWfap/V44awVeY5I/meJE4fn/9R35zjghsOD2ryCO8OnseDAmzCArtGhZfhxrw7ltzGYz+N5aZ+3Xm8BRMXhsfaYaeTaqXPeNV+vhHRBZ0YKmny9drVN6Im/NCtv35YO0LU94Uv7docw0/abUANozh9FJWO6SPUFW63m9wa4As2lNgw4cyx4AeDIGkrWHykDueuwmYP793joB5CMrD8L56H3n50nchYL6fCUU0fFRRfJQHtNMiQPC7cCEAx6qt49LZlBH0mEKAA9spVIR9fxUcu3l6aCZ0lyRGZZuUkEPZbTCyNcY0pPWnL30wmv7QA2Pn+qBrfhVToWd/+9GnM2mGo8eoke6VH4jruDhyNua1Fo1oJe4LM8/8lsKWLbwYIif09vsTq0tJ1xGAEFSEaOVAXj8lLieQZJ2hV1O++TlZF+5q1JAI+O9RKv9KTngvYNtuhWVCLau2yROztVBvwBUcpiOczEH7yuCRL4OyDhKcagtXohv097dy/B/ELHUdl0rwyWIUKwmEJabPW5nt36Atsqkk51IIxkyhBeOZvjljSlMN8VVoBzxyl2l4QZz5A="
+
 services:
   - docker
 
